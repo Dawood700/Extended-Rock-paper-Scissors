@@ -8,7 +8,7 @@ name = input("Enter your name: ")
 print(f"Hello, {name}")
 
     
-game_types = input("Input which variables you would like to play wiyh. Input nothing if you want to play the classic rock, paper, and scissors: ")
+game_types = input("Input which variables you would like to play with. Input nothing if you want to play the classic rock, paper, and scissors: ")
 
 def game():
   global score_number
@@ -71,7 +71,7 @@ def extended():
   new_selected = random.choice(items)
   # middle = int(len(items) / 2)
 
-  inp = input("Okay, type in your choice or command:: ")
+  inp = input("Okay, type in your choice or command: ")
 
 
   if inp == "!exit":
